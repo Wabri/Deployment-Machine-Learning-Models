@@ -213,3 +213,14 @@ Scikit-learn objects:
 | Leverages the power of acknowledged API | --- |
 | Data scienteists familiar with Pipeline use, reduced over-head | --- |
 | Engineering steps can be packaged and re-used in future ML models | --- |
+
+## Feature selection in CI/CD
+
+* Code: new model, model refresh
+* Staging: tests
+* Production: Model deployed, Automatically available to other systems
+
+The advantages of using Continous Integration and Continous Deployment reduce the overhead in the implementation of the new model and also the new model is almost immediately available to the business systems. However this system is build in one dataset and is not versatile for other dataset sources.
+
+
+
